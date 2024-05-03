@@ -7,7 +7,41 @@ This project involves a comprehensive analysis of Spotify's top tracks from 2023
 
 ## Install and Run
 
-- TBA
+- Clone this repository to your local machine follow by your desired directory name.
+
+```
+git clone https://github.com/oaoak/Spotify-Hot-Hits.git your_directory_name
+```
+
+- Change your directory if you are not on it.
+
+```
+cd your_directory_name
+```
+
+- Create virtual environment.
+
+```
+python -m venv env
+```
+
+- Change to your newly created virtual environment.
+
+```
+. env/bin/activate
+```
+
+- Install packages from requirements.txt
+
+```
+pip install -r requirements.txt
+```
+
+- Run the main block.
+
+```
+python main.py
+```
 
 ## Project Documents
 
