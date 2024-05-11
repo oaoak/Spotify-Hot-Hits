@@ -135,7 +135,6 @@ class AppUI(tk.Tk):
         self.histogram_logo = tk.PhotoImage(file="images/histogram_logo.png").subsample(2)
         self.density_logo = tk.PhotoImage(file="images/density_logo.png").subsample(2)
         self.scatter_logo = tk.PhotoImage(file="images/scatter_logo.png").subsample(2)
-        self.line_logo = tk.PhotoImage(file="images/line_logo.png").subsample(2)
         self.bar_logo = tk.PhotoImage(file="images/bar_logo.png").subsample(2)
         self.box_logo = tk.PhotoImage(file="images/box_logo.png").subsample(2)
         self.visual_option_one = tk.Canvas(self.visualization_option_frame, width=450, height=100, bg='#FF3C00',
